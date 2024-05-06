@@ -1,0 +1,9 @@
+Module
+  name: game_techtest
+  description: A window with a button that moves and jumps around when clicked
+  author: ryandarcey
+  website: ryandarcey.github.io
+  sandboxed: true
+  scripts: [ techtest ]
+  @onLoad: init()
+  @onUnload: terminate()

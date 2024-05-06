@@ -1,0 +1,12 @@
+MainWindow
+  !text: tr('Tech Test Window')
+  size: 400 400
+
+  @onEscape: modules.game_techtest.destroy()
+
+  Button
+    id: techtestButton
+    !text: tr('Jump!')
+    width: 64
+    @onClick: modules.game_techtest.click()
+    @onCheckChange: modules.game_techtest.update()
